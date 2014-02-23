@@ -5,4 +5,5 @@ t_ancre* chargement_lieux_trajets();
 
 void afficher_lieux_trajets(t_ancre* ancre);
 
+
 #endif // CHARGEMENT_H_INCLUDED

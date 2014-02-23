@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1392849712 source:c:\users\suikonami\dropbox\allegro_projet\main.c
+	"header.h"
+
+1392847998 c:\users\suikonami\dropbox\allegro_projet\header.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<math.h>
+	"allegro.h"
+	"menu.h"
+	"itineraire.h"
+	"navigation.h"
+
+1392832862 c:\users\suikonami\dropbox\allegro_projet\allegro.h
+
+1392832401 c:\users\suikonami\dropbox\allegro_projet\menu.h
+
+1392857116 source:c:\users\suikonami\dropbox\allegro_projet\menu.c
+	"header.h"
+
+1392834928 source:c:\users\suikonami\dropbox\allegro_projet\allegro.c
+	"header.h"
+
+1392848002 c:\users\suikonami\dropbox\allegro_projet\itineraire.h
+
+1392848002 c:\users\suikonami\dropbox\allegro_projet\navigation.h
+
+1392848002 source:c:\users\suikonami\dropbox\allegro_projet\itineraire.c
+	"header.h"
+
+1392859537 source:c:\users\suikonami\dropbox\allegro_projet\navigation.c
+	"header.h"
+
+1392834928 source:c:\users\clément\desktop\allegro_projet\allegro.c
+	"header.h"
+
+1393162598 c:\users\clément\desktop\allegro_projet\header.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro.h>
+	<math.h>
+	"allegro.h"
+	"menu.h"
+	"itineraire.h"
+	"navigation.h"
+	"structures.h"
+	"chargement.h"
+
+1392832862 c:\users\clément\desktop\allegro_projet\allegro.h
+
+1392832401 c:\users\clément\desktop\allegro_projet\menu.h
+
+1392848002 c:\users\clément\desktop\allegro_projet\itineraire.h
+
+1392848002 c:\users\clément\desktop\allegro_projet\navigation.h
+
+1393162769 source:c:\users\clément\desktop\allegro_projet\main.c
+	"header.h"
+
+1392857116 source:c:\users\clément\desktop\allegro_projet\menu.c
+	"header.h"
+
+1393161639 source:c:\users\clément\desktop\allegro_projet\navigation.c
+	"header.h"
+
+1393162583 c:\users\clément\desktop\allegro_projet\structures.h
+
+1393162644 c:\users\clément\desktop\allegro_projet\chargement.h
+
+1393162544 source:c:\users\clément\desktop\allegro_projet\chargement.c
+	"header.h"
+

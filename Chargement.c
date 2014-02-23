@@ -23,7 +23,7 @@ t_ancre* chargement_lieux_trajets()
 
     ///Allocation lieux
     fscanf(fp,"%d",&ancre->nb_lieu);
-    printf("%d\n",ancre->nb_lieu);
+    //printf("%d\n",ancre->nb_lieu);
     if(!(ancre->tab_lieu=(t_lieux*)malloc((ancre->nb_lieu)*sizeof(t_lieux))))
     {
         printf("erreur allocation tableau lieux\n");
@@ -38,9 +38,9 @@ t_ancre* chargement_lieux_trajets()
 
 
     ///Allocation trajet
-    fscanf(fp,"%d",&(ancre->nb_trajet));
-    printf("%d\n",ancre->nb_trajet);
-    if(!(ancre->tab_trajet=(t_trajet*)malloc(ancre->nb_lieu*sizeof(t_trajet))))
+    fscanf(fp,"%d\n",&(ancre->nb_trajet));
+    //printf("%d\n",ancre->nb_trajet);
+    if(!(ancre->tab_trajet=(t_trajet*)malloc(ancre->nb_trajet*sizeof(t_trajet))))
     {
         printf("erreur allocation tableau trajet\n");
         exit(0);
@@ -48,15 +48,15 @@ t_ancre* chargement_lieux_trajets()
     for(i=0;i<ancre->nb_trajet;i++)
     {
         fscanf(fp,"%d",&(ancre->tab_trajet[i].numero_trajet));
-        printf("%d ",ancre->tab_trajet[i].numero_trajet);
+        //printf("%d ",ancre->tab_trajet[i].numero_trajet);
         fscanf(fp,"%s",&(ancre->tab_trajet[i].nom));
-        printf("%s ",ancre->tab_trajet[i].nom);
+        //printf("%s ",ancre->tab_trajet[i].nom);
         fscanf(fp,"%s",&(ancre->tab_trajet[i].type));
-        printf("%s ",ancre->tab_trajet[i].type);
+        //printf("%s ",ancre->tab_trajet[i].type);
         fscanf(fp,"%d",&(ancre->tab_trajet[i].depart));
-        printf("%d ",ancre->tab_trajet[i].depart);
+        //printf("%d ",ancre->tab_trajet[i].depart);
         fscanf(fp,"%d",&(ancre->tab_trajet[i].arrivee));
-        printf("%d\n",ancre->tab_trajet[i].arrivee);
+        //printf("%d\n",ancre->tab_trajet[i].arrivee);
     }
 
     ///liberation pointeur
