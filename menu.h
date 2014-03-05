@@ -7,4 +7,9 @@ void initialiserSons();
 
 int menu();
 
+<<<<<<< HEAD
+=======
+void fondu();
+
+>>>>>>> Projet final
 #endif // MENU_H_INCLUDED

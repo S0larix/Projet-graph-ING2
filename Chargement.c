@@ -15,7 +15,7 @@ t_ancre* chargement_lieux_trajets()
     }
 
     ///ouverture fichier
-    if(!(fp=fopen("data_arcs.txt","r")) )
+    if(!(fp=fopen("data/data_points.txt","r")) )
     {
         printf("erreur ouverture fichier\n");
         exit(0);
@@ -32,10 +32,12 @@ t_ancre* chargement_lieux_trajets()
     for(i=0;i<ancre->nb_lieu;i++)
     {
         fscanf(fp,"%d",&ancre->tab_lieu[i].ordre);
-        fscanf(fp,"%s",&ancre->tab_lieu[i].nom);
+        fscanf(fp,"%s",ancre->tab_lieu[i].nom);
         fscanf(fp,"%d",&ancre->tab_lieu[i].altitude);
+        //x et y correspondent aux position des lieux sur la BITMAP cachée de 3200x2400
+        fscanf(fp,"%d",&ancre->tab_lieu[i].x);
+        fscanf(fp,"%d",&ancre->tab_lieu[i].y);
     }
-
 
     ///Allocation trajet
     fscanf(fp,"%d\n",&(ancre->nb_trajet));
@@ -49,9 +51,15 @@ t_ancre* chargement_lieux_trajets()
     {
         fscanf(fp,"%d",&(ancre->tab_trajet[i].numero_trajet));
         //printf("%d ",ancre->tab_trajet[i].numero_trajet);
+<<<<<<< HEAD
         fscanf(fp,"%s",&(ancre->tab_trajet[i].nom));
         //printf("%s ",ancre->tab_trajet[i].nom);
         fscanf(fp,"%s",&(ancre->tab_trajet[i].type));
+=======
+        fscanf(fp,"%s",(ancre->tab_trajet[i].nom));
+        //printf("%s ",ancre->tab_trajet[i].nom);
+        fscanf(fp,"%s",(ancre->tab_trajet[i].type));
+>>>>>>> Projet final
         //printf("%s ",ancre->tab_trajet[i].type);
         fscanf(fp,"%d",&(ancre->tab_trajet[i].depart));
         //printf("%d ",ancre->tab_trajet[i].depart);
@@ -61,6 +69,8 @@ t_ancre* chargement_lieux_trajets()
 
     ///liberation pointeur
     free(fp);
+
+    calcul_temps_trajet(ancre);
 
     return ancre;
 }
@@ -73,7 +83,9 @@ void afficher_lieux_trajets(t_ancre* ancre)
     {
         printf("%d ",ancre->tab_lieu[i].ordre);
         printf("%s ",ancre->tab_lieu[i].nom);
-        printf("%d\n",ancre->tab_lieu[i].altitude);
+        printf("%d ",ancre->tab_lieu[i].altitude);
+        printf("%d ",ancre->tab_lieu[i].x);
+        printf("%d\n",ancre->tab_lieu[i].y);
     }
     for(i=0;i<ancre->nb_trajet;i++)
     {

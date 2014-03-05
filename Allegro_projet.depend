@@ -1,4 +1,5 @@
 # depslib dependency file v1.0
+<<<<<<< HEAD
 1392849712 source:c:\users\suikonami\dropbox\allegro_projet\main.c
 	"header.h"
 
@@ -7,10 +8,23 @@
 	<stdlib.h>
 	<allegro.h>
 	<math.h>
+=======
+1393765228 source:c:\users\suikonami\dropbox\allegro_projet\main.c
+	"header.h"
+
+1393426708 c:\users\suikonami\dropbox\allegro_projet\header.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<allegro.h>
+	<math.h>
+	"annexe.h"
+>>>>>>> Projet final
 	"allegro.h"
 	"menu.h"
 	"itineraire.h"
 	"navigation.h"
+<<<<<<< HEAD
 
 1392832862 c:\users\suikonami\dropbox\allegro_projet\allegro.h
 
@@ -40,10 +54,127 @@
 	<stdlib.h>
 	<allegro.h>
 	<math.h>
+=======
+	"chargement.h"
+	"longueur.h"
+	"dijkstra.h"
+
+1393467289 c:\users\suikonami\dropbox\allegro_projet\allegro.h
+
+1393627321 c:\users\suikonami\dropbox\allegro_projet\menu.h
+
+1393627321 source:c:\users\suikonami\dropbox\allegro_projet\menu.c
+	"header.h"
+
+1393461379 source:c:\users\suikonami\dropbox\allegro_projet\allegro.c
+	"header.h"
+
+1393670562 c:\users\suikonami\dropbox\allegro_projet\itineraire.h
+
+1393505075 c:\users\suikonami\dropbox\allegro_projet\navigation.h
+
+1393774024 source:c:\users\suikonami\dropbox\allegro_projet\itineraire.c
+	"header.h"
+
+1393765428 source:c:\users\suikonami\dropbox\allegro_projet\navigation.c
+	"header.h"
+
+1392916305 c:\users\suikonami\dropbox\allegro_projet\structure.h
+
+1393426745 c:\users\suikonami\dropbox\allegro_projet\annexe.h
+
+1393255824 source:c:\users\suikonami\dropbox\allegro_projet\annexe.c
+	"header.h"
+
+1392834928 source:c:\users\david\dropbox\allegro_projet\allegro.c
+	"header.h"
+
+1393426708 c:\users\david\dropbox\allegro_projet\header.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<allegro.h>
+	<math.h>
+	"annexe.h"
 	"allegro.h"
 	"menu.h"
 	"itineraire.h"
 	"navigation.h"
+	"chargement.h"
+	"longueur.h"
+	"dijkstra.h"
+
+1393426745 c:\users\david\dropbox\allegro_projet\annexe.h
+
+1393467289 c:\users\david\dropbox\allegro_projet\allegro.h
+
+1393627321 c:\users\david\dropbox\allegro_projet\menu.h
+
+1393681101 c:\users\david\dropbox\allegro_projet\itineraire.h
+
+1393505075 c:\users\david\dropbox\allegro_projet\navigation.h
+
+1393255824 source:c:\users\david\dropbox\allegro_projet\annexe.c
+	"header.h"
+
+1393681101 source:c:\users\david\dropbox\allegro_projet\itineraire.c
+	"header.h"
+
+1393627380 source:c:\users\david\dropbox\allegro_projet\main.c
+	"header.h"
+
+1393627321 source:c:\users\david\dropbox\allegro_projet\menu.c
+	"header.h"
+
+1393635231 source:c:\users\david\dropbox\allegro_projet\navigation.c
+	"header.h"
+
+1393190466 c:\users\suikonami\dropbox\allegro_projet\chargement.h
+
+1393599373 source:c:\users\suikonami\dropbox\allegro_projet\chargement.c
+	"header.h"
+
+1393426563 c:\users\suikonami\dropbox\allegro_projet\longueur.h
+
+1393532943 c:\users\suikonami\dropbox\allegro_projet\dijkstra.h
+
+1393606106 source:c:\users\suikonami\dropbox\allegro_projet\dijkstra.c
+	"header.h"
+
+1393603127 source:c:\users\suikonami\dropbox\allegro_projet\longueur.c
+	"header.h"
+
+1393190466 c:\users\david\dropbox\allegro_projet\chargement.h
+
+1393426563 c:\users\david\dropbox\allegro_projet\longueur.h
+
+1393532943 c:\users\david\dropbox\allegro_projet\dijkstra.h
+
+1393599373 source:c:\users\david\dropbox\allegro_projet\chargement.c
+	"header.h"
+
+1393606106 source:c:\users\david\dropbox\allegro_projet\dijkstra.c
+	"header.h"
+
+1393603127 source:c:\users\david\dropbox\allegro_projet\longueur.c
+	"header.h"
+
+1392831328 source:c:\users\clément\desktop\allegro_projet\allegro.c
+	"header.h"
+
+1393423108 c:\users\clément\desktop\allegro_projet\header.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<allegro.h>
+	<math.h>
+	"annexe.h"
+>>>>>>> Projet final
+	"allegro.h"
+	"menu.h"
+	"itineraire.h"
+	"navigation.h"
+<<<<<<< HEAD
 	"structures.h"
 	"chargement.h"
 
@@ -69,5 +200,49 @@
 1393162644 c:\users\clément\desktop\allegro_projet\chargement.h
 
 1393162544 source:c:\users\clément\desktop\allegro_projet\chargement.c
+=======
+	"chargement.h"
+	"longueur.h"
+	"dijkstra.h"
+
+1393423144 c:\users\clément\desktop\allegro_projet\annexe.h
+
+1393463688 c:\users\clément\desktop\allegro_projet\allegro.h
+
+1393623720 c:\users\clément\desktop\allegro_projet\menu.h
+
+1393677500 c:\users\clément\desktop\allegro_projet\itineraire.h
+
+1393501474 c:\users\clément\desktop\allegro_projet\navigation.h
+
+1393186866 c:\users\clément\desktop\allegro_projet\chargement.h
+
+1393422962 c:\users\clément\desktop\allegro_projet\longueur.h
+
+1393529342 c:\users\clément\desktop\allegro_projet\dijkstra.h
+
+1393252224 source:c:\users\clément\desktop\allegro_projet\annexe.c
+	"header.h"
+
+1393595772 source:c:\users\clément\desktop\allegro_projet\chargement.c
+	"header.h"
+
+1393602506 source:c:\users\clément\desktop\allegro_projet\dijkstra.c
+	"header.h"
+
+1393770424 source:c:\users\clément\desktop\allegro_projet\itineraire.c
+	"header.h"
+
+1393599526 source:c:\users\clément\desktop\allegro_projet\longueur.c
+	"header.h"
+
+1393761628 source:c:\users\clément\desktop\allegro_projet\main.c
+	"header.h"
+
+1393623720 source:c:\users\clément\desktop\allegro_projet\menu.c
+	"header.h"
+
+1393761828 source:c:\users\clément\desktop\allegro_projet\navigation.c
+>>>>>>> Projet final
 	"header.h"
 

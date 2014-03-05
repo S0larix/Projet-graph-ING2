@@ -4,6 +4,11 @@
 extern BITMAP *page;
 extern BITMAP *pageCachee;
 
+<<<<<<< HEAD
+=======
+extern FONT *font;
+
+>>>>>>> Projet final
 BITMAP* chargerImage(char *nomFichierImage);
 
 SAMPLE* chargerSon(char *nomFichierSon);

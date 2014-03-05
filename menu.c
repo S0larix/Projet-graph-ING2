@@ -37,6 +37,7 @@ void initialiserSons()
     //A implementer si on a le temps
 }
 
+<<<<<<< HEAD
 int menu()
 {
 
@@ -45,6 +46,38 @@ int menu()
     BITMAP *itineraire, *parcours, *quit;
     BITMAP *finale;
     float inter;
+=======
+void fondu()
+{
+    BITMAP *image1;
+    BITMAP *image2;
+
+    BITMAP *finale;
+    float inter;
+
+    image1=chargerImage("images/ECE.bmp");
+
+    image2=chargerImage("images/menu.bmp");
+
+    blit(image1,screen,0,0,0,0,SCREEN_W,SCREEN_H);
+    blit(image1,page,0,0,0,0,SCREEN_W,SCREEN_H);
+
+    rest(1500);
+
+    for(inter=0; inter<=1.00; inter+=0.03)
+    {
+        finale=intermediaire(inter,image1,image2);
+        blit(finale,page,0,0,0,0,finale->w,finale->h);
+        blit(page,screen,0,0,0,0,SCREEN_W,SCREEN_H);
+    }
+}
+
+int menu()
+{
+
+    BITMAP *image2;
+    BITMAP *itineraire, *parcours, *quit;
+>>>>>>> Projet final
     int itineraire_x, itineraire_y, parcours_x, parcours_y, quit_x, quit_y;
 
     static int precClic=0, nouvClic=0;
@@ -56,8 +89,11 @@ int menu()
     quit_x=350;
     quit_y=420;
 
+<<<<<<< HEAD
     image1=chargerImage("images/ECE.bmp");
 
+=======
+>>>>>>> Projet final
     image2=chargerImage("images/menu.bmp");
 
     itineraire=chargerImage("images/itineraire.bmp");
@@ -70,6 +106,7 @@ int menu()
 
     show_mouse(screen);
 
+<<<<<<< HEAD
     blit(image1,page,0,0,0,0,SCREEN_W,SCREEN_H);
     for(inter=0; inter<=1.00; inter+=0.03)
     {
@@ -78,6 +115,8 @@ int menu()
         blit(page,screen,0,0,0,0,SCREEN_W,SCREEN_H);
     }
 
+=======
+>>>>>>> Projet final
     while(!key[KEY_ESC])
     {
 

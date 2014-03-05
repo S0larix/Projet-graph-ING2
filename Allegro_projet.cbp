@@ -7,8 +7,13 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
+<<<<<<< HEAD
 				<Option output="bin/Debug/Allegro_projet" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
+=======
+				<Option output="bin\Debug\Allegro_projet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+>>>>>>> Projet final
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -16,8 +21,13 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
+<<<<<<< HEAD
 				<Option output="bin/Release/Allegro_projet" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
+=======
+				<Option output="bin\Release\Allegro_projet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+>>>>>>> Projet final
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -46,6 +56,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="allegro.h" />
+<<<<<<< HEAD
 		<Unit filename="chargement.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -53,6 +64,29 @@
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="header.h" />
+=======
+		<Unit filename="annexe.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="annexe.h" />
+		<Unit filename="chargement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="chargement.h" />
+		<Unit filename="dijkstra.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dijkstra.h" />
+		<Unit filename="header.h" />
+		<Unit filename="itineraire.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="itineraire.h" />
+		<Unit filename="longueur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="longueur.h" />
+>>>>>>> Projet final
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -64,6 +98,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="navigation.h" />
+<<<<<<< HEAD
 		<Unit filename="structures.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
@@ -71,6 +106,11 @@
 			<code_completion />
 			<debugger />
 			<envvars />
+=======
+		<Extensions>
+			<code_completion />
+			<debugger />
+>>>>>>> Projet final
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
